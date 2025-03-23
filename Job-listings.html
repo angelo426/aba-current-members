@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Listings</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 80px;
+    }
+    .job-card {
+      border: 1px solid #dee2e6;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .job-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    .job-company {
+      font-size: 1rem;
+      color: #6c757d;
+    }
+    .job-location {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand fw-bold" href="index.html">Accounting & Business Association</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="current-members.html">Members</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Job Listings</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2 class="mb-4 text-center">Job Listings</h2>
+
+    <!-- Job 1 -->
+    <div class="job-card">
+      <div class="job-title">Accounting Intern</div>
+      <div class="job-company">KPMG</div>
+      <div class="job-location">Washington, DC</div>
+      <p>Assist with audits, financial analysis, and participate in internship training. Open to juniors and seniors.</p>
+      <a href="#" class="btn btn-primary">Apply Now</a>
+    </div>
+
+    <!-- Job 2 -->
+    <div class="job-card">
+      <div class="job-title">Finance Analyst</div>
+      <div class="job-company">JP Morgan Chase</div>
+      <div class="job-location">New York, NY</div>
+      <p>Full-time analyst position supporting the investment banking team. Requires Excel and financial modeling skills.</p>
+      <a href="#" class="btn btn-primary">Apply Now</a>
+    </div>
+
+    <!-- Job 3 -->
+    <div class="job-card">
+      <div class="job-title">Consulting Associate</div>
+      <div class="job-company">Deloitte</div>
+      <div class="job-location">Remote</div>
+      <p>Work with clients in cross-functional teams, conducting analysis and helping to deliver business solutions.</p>
+      <a href="#" class="btn btn-primary">Apply Now</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
